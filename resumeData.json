@@ -1,0 +1,128 @@
+{
+  "main": {
+    "name": "Amit kumar",
+    "description": "I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
+    "image": "profilepic.jpg",
+    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "amitfuturestar@gmail.com",
+    "phone": "8709222397",
+    "github": "https://github.com/",
+    "project": "https://github.com/",
+    "address": {
+      "street": "White Field",
+      "city": "Bangalore",
+      "state": "Karnatka",
+      "zip": ""
+    },
+    "website": "http://www.google.com",
+    "resumedownload": "http://google.com",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://github.com/",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "http://twitter.com",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "http://instagram.com/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "Wbut",
+        "degree": "M.Tech in computer Science",
+        "graduated": "June 2017",
+        "description": "It was a great journey of 2 yrs where i completed a project on protection of data storage in vmware enviroment through commvault and completed a research Journal on (Storage Safeguard Provacation in Cloud Computing .@ RASEM-2017)"
+      },
+      {
+        "school": "Wbut",
+        "degree": "B.tech in computer Science",
+        "graduated": "June 2015",
+        "description": "That's the awsome life of 4 yrs along friend as well got an opportunity to intract with the lovely programming language like c , java, android and with some latest tech also like AWS "
+      }
+    ],
+    "work": [
+      {
+        "company": "IBM",
+        "title": "System Admin",
+        "years": "Feb 2018 - 6th June 2019",
+        "description": "windows server configuration and maintenance in SCCM with AWS."
+      },
+      {
+        "company": "Pulse Labs",
+        "title": "Software Engg",
+        "years": "10th June 2019 - Present",
+        "description": "Enhancing applications by identifying opportunities for improvement, making recommendations and designing and implementing systems.Maintaining and improving existing codebases and peer review code changes"
+      }
+    ],
+    "skills": [
+      {
+        "name": "java script",
+        "level": "80%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "90%"
+      },
+
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "Node js",
+        "level": "80%"
+      },
+      {
+        "name": "Python",
+        "level": "60%"
+      },
+      {
+        "name": "Aws",
+        "level": "70%"
+      },
+      {
+        "name": "Infra Structure",
+        "level": "80%"
+      },
+      {
+        "name": "Nagios",
+        "level": "80%"
+      },
+      {
+        "name": "Web server",
+        "level": "80%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Journey",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "01.jpg",
+        "url": ""
+      }
+    ]
+  }
+}
