@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import ReactGA from "react-ga";
-import $ from "jquery";
+//import $ from "jquery";
 import "./App.css";
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
-import About from "./Components/About";
-import Resume from "./Components/Resume";
-import Contact from "./Components/Contact";
-import Portfolio from "./Components/Portfolio";
+// import Header from "./Components/Header";
+// import Footer from "./Components/Footer";
+// import About from "./Components/About";
+// import Resume from "./Components/Resume";
+// import Contact from "./Components/Contact";
+// import Portfolio from "./Components/Portfolio";
 
 class App extends Component {
   constructor(props) {
@@ -21,34 +21,54 @@ class App extends Component {
     ReactGA.pageview(window.location.pathname);
   }
 
-  getResumeData() {
-    $.ajax({
-      url: "./resumeData.json",
-      dataType: "json",
-      cache: false,
-      success: function(data) {
-        this.setState({ resumeData: data });
-      }.bind(this),
-      error: function(xhr, status, err) {
-        console.log(err);
-        alert(err);
-      }
-    });
-  }
+  // getResumeData() {
+  //   $.ajax({
+  //     url: "./resumeData.json",
+  //     dataType: "json",
+  //     cache: false,
+  //     success: function(data) {
+  //       this.setState({ resumeData: data });
+  //     }.bind(this),
+  //     error: function(xhr, status, err) {
+  //       console.log(err);
+  //       alert(err);
+  //     }
+  //   });
+  // }
 
-  componentDidMount() {
-    this.getResumeData();
-  }
+  // componentDidMount() {
+  //   this.getResumeData();
+  // }
 
   render() {
     return (
       <div className="App">
-        <Header data={this.state.resumeData.main} />
+        {/* <Header data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />
         <Resume data={this.state.resumeData.resume} />
         <Portfolio data={this.state.resumeData.portfolio} />
         <Contact data={this.state.resumeData.main} />
-        <Footer data={this.state.resumeData.main} />
+        <Footer data={this.state.resumeData.main} /> */}
+
+{/* /* facebook page css */ }
+        <div class="container">
+        <div class="col-sm-6">
+			<div class="logo">click on facebook icon</div>
+		</div>
+	<div class="row mt-5">
+		
+		<div class="col-sm-6 hidden-xs">
+			<div class="row">
+      <a href="https://www.facebook.com/" target="_blank" >
+            <i className="fa fa-facebook" id="facebook"></i>
+          </a>
+			
+			</div>	
+		</div>
+	</div>
+	</div>
+
+  {/* /* facebook page css */ }
       </div>
     );
   }
